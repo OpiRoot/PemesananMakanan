@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#00FFF0"
+    tools:context="com.example.acer.pemesananmakanan.MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Order"
+        android:id="@+id/order"
+        android:layout_below="@+id/map"
+        style="@style/Base.Widget.AppCompat.Button.Colored"/>
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="Call"
+        android:id="@+id/call"
+        android:src="@drawable/ic_call"
+        android:layout_alignParentRight="true"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/map"
+        android:text="maps"
+        android:layout_toLeftOf="@+id/call" />
+    <ListView
+        android:id="@+id/listmakanan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/order">
+    </ListView>
+</RelativeLayout>

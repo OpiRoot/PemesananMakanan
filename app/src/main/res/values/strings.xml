@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Pemesanan Makanan</string>
+    <string name="simpan">Simpan</string>
+    <string name="hapus">Hapus</string>
+    <string name="tanggal">Tanggal</string>
+    <string name="telepon">No.Telp</string>
+    <string name="nama">Nama</string>
+    <string name="alamat">Alamat</string>
+    <string name="pembelian">Pembelian</string>
+    <string name="jumlah">Jumlah</string>
+    <string name="ayambakar">Ayam bakar dimasak dengan cara dibakar langsung di atas bara api, tapi sebelumnya sudah dibumbui. Dengan dibakar, bumbu akan meresap hingga ke dalam daging.</string>
+    <string name="bakso">Bakso atau baso adalah jenis bola daging yang lazim ditemukan pada masakan Indonesia. Bakso umumnya dibuat dari campuran daging Sapi giling dan tepung tapioka, akan tetapi ada juga Bakso yang terbuat dari daging Ayam, Ikan, ataupun Udang.</string>
+    <string name="gadogado">Gado-Gado adalah salah satu makanan yang berasal dari indonesia yang berupa sayur-sayuran yang direbus dan dicampur jadi satu, dengan bumbu atau saus dari kacang tanah yang dihaluskan disertai irisan telur dan diatasnya ditaburkan bawang goreng.</string>
+    <string name="ikanbakar">Ikan bakar adalah hidangan ikan yang dibakar atau dipanggang di atas api atau bara api. Hidangan ikan yang dibakar, muncul secara universal di berbagai belahan dunia.</string>
+    <string name="kepitingbakar">Kepiting bakar adalah hidangan kepiting yang dibakar atau dipanggang di atas api atau bara api, tapi sebelumnya sudah dibumbui. Dengan dibakar, bumbu akan meresap hingga ke dalam daging.</string>
+    <string name="mieaceh">Mie Aceh adalah masakan mie pedas khas Aceh di Indonesia. Mie kuning tebal dengan irisan daging sapi, daging kambing atau makanan laut (udang dan cumi) disajikan dalam sup sejenis kari yang gurih dan pedas. Mie Aceh tersedia dalam dua jenis, Mie Aceh Goreng (digoreng dan kering) dan Mie Aceh Kuah (sup).</string>
+    <string name="oporayam">Opor Ayam merupakan masakan yang sangat dikenal di Indonesia. Opor Ayam sebenarnya adalah ayam rebus yang diberi bumbu kental dari santan yang ditambah berbagai bumbu seperti Serai, Kencur, dan sebagainya.</string>
+    <string name="rendang">Rendang adalah masakan daging bercita rasa pedas yang menggunakan campuran dari berbagai bumbu dan rempah-rempah. Masakan ini dihasilkan dari proses memasak yang dipanaskan berulang-ulang dengan santan Kelapa.</string>
+    <string name="sate">Sate merupakan makanan yang terbuat dari potongan daging kecil-kecil yang ditusuk sedemikian rupa dengan tusukan lidi tulang daun Kelapa atau Bambu kemudian dipanggang menggunakan bara arang kayu.</string>
+    <string name="soto">Soto merupakan makanan khas Indonesia seperti Sop yang terbuat dari kaldu daging dan sayuran. Daging yang paling sering digunakan adalah daging Sapi dan Ayam, Tetapi ada pula yang menggunakan daging Kambing.</string>
+    <string name="udangasammanis">Udang yang dipadukan dengan Saus asam manis, Saus asam manis adalah saus yang berasal dari masakan Tionghoa, dibuat dari air, cuka, saus tomat, gula, garam, dan tepung sebagai pengental yang dimasak di atas penggorengan. Tepung yang digunakan untuk pengental umumnya tepung sagu atau tepung kentang.</string>
+</resources>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF000">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        tools:context="com.example.acer.pemesananmakanan.DetailMakanan">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/imgdetailmakanan"
+            android:src="@drawable/bakso" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="Nama Makanan"
+            android:id="@+id/txtdetailnamamakanan"
+            android:layout_below="@+id/imgdetailmakanan"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="Harga Makanan"
+            android:id="@+id/txtdetailhargamakanan"
+            android:layout_below="@+id/txtdetailnamamakanan"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:text="Detail Makanan"
+            android:id="@+id/txtdetailmakanan"
+            android:layout_below="@id/txtdetailhargamakanan"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:layout_below="@id/txtdetailmakanan">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Berikan Penilaian Anda:"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <android.support.v7.widget.AppCompatRatingBar
+            android:id="@+id/penilaian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:rating="0"
+            android:stepSize="0.5"
+            android:layout_below="@+id/textView"/>
+
+        <Button
+            android:id="@+id/vote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rate"
+            style="@style/Base.Widget.AppCompat.Button.Colored"
+            android:layout_toRightOf="@+id/penilaian"
+            android:layout_below="@+id/textView"/>
+
+        <TextView
+            android:id="@+id/rate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/penilaian"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</ScrollView>
